@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://192.168.8.197:8080/" });
+const API = axios.create({ baseURL: "http://192.168.92.225:8080/" });
 
 export const createClass = (classData) =>
   API.post("/api/v1/class/createClass", classData);
