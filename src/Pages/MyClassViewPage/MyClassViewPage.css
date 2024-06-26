@@ -1,0 +1,126 @@
+.MyClassViewPage{
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+    background-color: #f5f5f5;
+    margin-top: 5rem;
+}
+.delete-button{
+    height: 2rem;
+    padding: 5px 10px;
+    width: auto;
+}
+
+
+
+.my-class-card {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    width: 80vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+.img>h1{
+    font-size: 9.2rem;
+}
+
+
+.my-card-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #5e2ca5;
+    color: #fff;
+    position: relative;
+}
+.my-card-details .published {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.my-class-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ .batch,
+ .medium,
+.monthly-fee {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+ .medium {
+    font-weight: normal;
+}
+.my-class-schedule {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f8fc;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.my-class-schedule span {
+   
+}
+
+.my-class-schedule hr {
+    border: 1px solid #5e2ca5;
+    border-top: 2px solid #5e2ca5;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.schedule-lessions {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-lessions:hover {
+    border: 2px solid #5e2ca5;
+}
+
+.class-small-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #5e2ca5;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.schedules {
+    font-size: 1em;
+    color: #333;
+}

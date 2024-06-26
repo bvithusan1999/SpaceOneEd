@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.container-content{
+    display: flex;
+    flex-direction: column;
+    background: #F5F3F8;
+    align-items: center;
+}
+.content-title{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #290D44, #7C27CB);
+    background: linear-gradient(to right, #37115a, #8a2be2);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: poppins, sans-serif;
+}
+.content-title h1{    
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.content-title h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.content-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.content-button button{
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    background: linear-gradient(90deg ,#7C27CB 0%, #290D44 100%);
+    color: #FFF;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;    
+}
+.content-button>button:hover{   
+    background-color: #38384c;
+    color: #FFF;    
+}
+.hero-content-img img{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Responsive styles for tablet screens */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .container-content {
+      width: 100%;
+    }
+  
+    hr.first-hr,
+    hr.second-hr {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  /* Responsive styles for mobile screens */
+  @media only screen and (max-width: 480px) {
+    .container {
+      flex-direction: column;
+      align-items: center; 
+      
+    }
+
+    .com01-buttons {
+      flex-direction: column;
+    }
+  
+    .com01-buttons > button {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    .com01-img {
+        display: none; 
+      }
+  }

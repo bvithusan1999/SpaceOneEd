@@ -1,0 +1,98 @@
+.ExploreClassesPage{
+    background: #F5F3F8;
+    margin-top: 5rem;
+}
+
+.explore-classes-page-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+
+}
+.search-box>input{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 15px;
+    
+    
+}
+.search-box>input:focus{
+    outline: none;
+   
+
+    
+}
+.search-box{
+    display: flex;
+    
+    
+    margin-left: auto;
+    
+}
+
+
+
+
+button {
+  padding-right: 5px;
+  background-color: #fff;
+  width: 50px;
+    height: 42px;
+  border:none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.category{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+.list-butt>input{
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 15px;
+
+}
+
+.list-butt{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.list-butt>button{
+    position: relative;
+}
+.dropdown-list{
+    position: relative;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    
+    
+}
+
+.explore-classes-page-cards{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    gap: 10px; /* Adjust the gap as needed */
+    margin-left: auto;
+    margin-right: auto;
+}

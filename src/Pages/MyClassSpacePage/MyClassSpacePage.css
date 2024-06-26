@@ -1,0 +1,99 @@
+body {
+  
+  font-family: Arial, sans-serif;
+}
+
+.MyClassSpacePage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff;
+  margin-top: 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.header h1 {
+  color: #5e2ca5;
+  font-size: 24px;
+  margin: 0;
+}
+
+.search-create-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-class-button, .create-button {
+  padding: 10px 20px;
+  
+  color: white;
+  border: none;
+  
+  cursor: pointer;
+  
+  margin-left: 10px;
+  width: 13rem;
+  height: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  padding: 0 5px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #5e2ca5;
+  border-bottom: 2px solid transparent;
+  width: auto;
+  border-radius: 0;
+}
+
+.tabs button.active,
+.tabs button:hover {
+  border-bottom: 2px solid #5e2ca5;
+}
+
+.section {
+  padding: 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #5e2ca5;
+}
+
+.section p {
+  color: #666;
+}

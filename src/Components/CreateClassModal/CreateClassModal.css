@@ -1,0 +1,166 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px 5em;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60vh;
+    height: auto;
+}
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.form-group>label {
+    margin-bottom: 5px;
+}
+.form-group 
+.form-group select {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+
+}
+input[type="time"],[type="date"],[type="select"]{
+    margin-right: 20px;
+}
+input[type="text"],[type="time"],[type="date"],[type="select"] ,[type="decimal"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.next-but{
+    display: flex;
+    justify-content: flex-end;
+}
+.next-button {
+   margin-top: 20px;
+    border-radius: 10px;
+    width: 25%;
+    cursor: pointer;
+    height: 2rem;
+    
+}
+.finish-button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: auto;
+    cursor: pointer;
+    height: 2rem;
+    background-color: #7C27CB;
+    color: white;
+}
+.submit-button:hover {
+    background-color: #5a4dad;
+}
+
+.create-class{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(to right, #290D44, #7C27CB);
+    background: linear-gradient(to right, #37115a, #8a2be2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.bac-nex-but{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.back-button{
+    margin-top: 20px;
+    
+    width: 25%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #7C27CB;
+    color: #7C27CB;
+    height: 2rem;
+}
+
+.back-button:hover {
+    background-color: #7C27CB;
+    color: white;
+}
+.text-area {
+  display: flex;
+  width: 95%; /* Set a fixed width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 100px;
+  resize: none;
+}
+.addmore-button{
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #7C27CB;
+    color: #7C27CB;
+    height: 2rem;
+}
+.addmore-button:hover {
+    background-color: #7C27CB;
+    color: white;
+}
+.schedule-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.schedule-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.syllabus-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}

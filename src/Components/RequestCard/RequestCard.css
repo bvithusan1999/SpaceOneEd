@@ -1,0 +1,44 @@
+.RequestCard{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border : 1px solid #611E9E;
+}
+
+.accept-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   margin-left: auto;
+   width: 100%  ;
+
+}
+.accept-but{
+    margin-right: 20px;
+    width: auto;
+    border-radius: 1rem;
+    border: none;
+    height: 2rem; 
+    padding: 5px 10px;
+}
+.cancel-now-but{
+    border: 1px solid #611E9E;
+    border-radius: 1rem;
+    height: 2rem; 
+    padding: 5px 10px;
+  width: auto;
+  color: #611E9E;
+  
+}
+.cancel-now-but:hover{
+    background-color: #4e2278;
+    color: white;
+    
+}

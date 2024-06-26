@@ -1,0 +1,71 @@
+.EnrolledClassCard:hover{
+    border: #3f0872 2px solid;
+    cursor: pointer;
+}
+
+.EnrolledClassCard{
+    width: 45vh;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-image{
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 20vh;
+    background-size: 50vh;
+    
+}
+.card-edit-button{
+    height: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.card-subject{
+    font-weight: bolder;
+}
+
+.card-teacher{
+    font-weight: 400;
+    font-size: x-small;
+
+}
+.class-counts{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    
+}
+.class-counts>span:nth-child(2){
+    
+    margin-left: 7rem;
+
+}
+.class-counts>span:nth-child(1){
+        font-weight: 600;
+    color: #7C27CB;
+
+}
+.card-image{
+    display: flex;
+    flex-direction: row;
+
+}
+.card-edit-button{
+    width: 30px;
+        height: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: auto;
+}
+.card-trash-button{
+    width: 30px;
+        height: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    
+}

@@ -1,0 +1,64 @@
+.PendingFee{
+        
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+}
+.PendingFee hr {
+ 
+  border-color: #7C27CB;
+  border-style: solid;
+  border-width: 0.001rem;
+  width: 100%;
+  margin: 10px 0;
+    background-color: transparent;
+}
+
+.pendingfee{
+        
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pay-now-button{
+margin-left: auto;
+}
+.pay-now-button>button{
+width: 4.5rem;
+    height: 1.55rem;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.5rem;
+    
+}
+
+
+
+
+
+
+.pending-fee-month{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    margin-right: auto;
+    
+    
+}
+.month{
+    font-weight: 600;
+}
+
+.pending-fee-amount{
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+}
+

@@ -1,0 +1,47 @@
+.EnrolledClassCard{
+    width: 45vh;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.e-card-image>img{
+    height: 20vh;
+}
+
+.card-subject{
+    font-weight: bolder;
+}
+
+.card-grade{
+    font: weight 500;
+}
+.card-details-0{
+    display: flex;
+    
+    
+}
+.card-student-count{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 7rem;
+}
+.card-name{
+    color: #5e2ca5;}
+
+.join-request{
+    padding-left: 20px;
+color: #05340c;
+}
+.request-count{
+    padding: 4px 7px; 
+    background-color: #c7efbd;
+    border-radius: 100%;
+    color: #05340c;
+
+}
+.join-requests{
+    font-size: smaller;
+    margin-top: 1rem;
+}

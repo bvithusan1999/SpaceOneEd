@@ -1,0 +1,123 @@
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #F5F3F8;
+  width: 100%;
+  margin-top: 180px;
+  padding: 0px;
+}
+.feature-title h2 {
+  font-size: 50px;
+  font-family: poppins, sans-serif;
+  background: linear-gradient(to right, #37115a, #8a2be2);
+  -webkit-background-clip: text;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.feature-container{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;   
+  margin-bottom: 5vh;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+.feature-content{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  border: 1px solid rgba(2, 7, 93, 4.7);
+  border-radius: 15px;
+  width: 220px; 
+  max-width: 220px;
+  height: 260px;
+}
+.feature-content img{
+  width: 60px;
+  height: 60px;
+  /* margin-top: 10px; */
+}
+.feature-content h2{
+  font-size: 24px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.feature-content p{
+  font-size: 10px;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.feature-button button{
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  background: linear-gradient(90deg ,#7C27CB 0%, #290D44 100%);
+  color: #FFF;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;    
+}
+
+
+/* 
+
+  @media  sceen and (min-width:100px) {
+    .rectangle{
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  
+  }
+
+  .feature-title{
+    
+    background: linear-gradient(to right, #290D44, #7C27CB);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-top: 5vh;
+    
+  }
+
+   .feature-title>hr{
+    background-color: #611E9E;
+    height:  5px;
+    border: none;
+    border-radius: 3px;
+    width: 50px;
+   }
+
+   .feature-but{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 4vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    cursor: pointer;
+   } */

@@ -1,0 +1,43 @@
+.UpComingClass{
+    border-left: 3px solid  #611E9E;
+    display: flex;
+    flex-direction: row;
+    
+    margin: 10px;
+}
+
+.subject-time{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    
+    
+}
+.subject{
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.time{
+    font-size: 0.65rem;
+    font-weight: 400;
+}
+
+.join-now-button{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.join-now-button>button{
+    width: 4.5rem;
+    height: 1.55rem;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.5rem;
+    
+}

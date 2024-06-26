@@ -1,0 +1,56 @@
+.free-class-card{
+    display: flex;
+    flex-direction: row;
+    height:12rem;
+    width: 30rem;
+    border-radius: 10px;
+    background: #F5F3F8;
+    
+}
+.card-img>img{
+    height: 100%;
+    width:10rem;
+    border-radius: 10px 0 0 10px;
+    margin-right: 1rem;
+}
+
+.free-card-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 0 10px 10px 0;
+    justify-content: center;
+}
+
+.free{
+    font-weight:600;
+    font-size: 25px;
+    margin-bottom: 0.75rem;
+    
+
+}
+.free-subject{
+    font-weight:600;
+    font-size: 15px;
+
+}
+.free-grade{
+    font-weight:400;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+
+}
+.free-date-and-time{
+    font-weight:700;
+    font-size: 12px;
+    margin-bottom: 1rem;
+
+}
+.free-join-button{
+    display: flex;
+    flex-direction: row;
+}
+.join-butt{
+    width: 4rem;
+    border-radius: 10px;
+}

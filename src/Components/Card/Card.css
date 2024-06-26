@@ -1,0 +1,151 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: #F5F3F8;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card-header  {
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    background: linear-gradient(to right, #37115a, #8a2be2);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.class-card-container{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.class-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    max-width: 320px;
+    height: 530px;
+    border-radius: 15px;
+    font-family: poppins;
+}
+.class-card-content:hover{
+    border: #37115a solid 1.5px;
+    cursor: pointer;
+}
+.card-details>hr{
+    background-color: #6f6e70;
+    height:  0.1px;
+    border: none;   
+    width: 100%;  
+}
+
+.class-card-content img {
+    width: 100%;
+    height: 182px;
+    object-fit: cover;
+    border-radius: 13px 13px 0 0;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right:30px ;
+    padding-bottom: 15px;
+    color: rgb(60, 60, 60);
+}
+.card-details-1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0px;
+}
+.card-subject{
+    font-size: large;   
+}
+.card-teacher{
+    font-size:small;
+}
+.card-details-2{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+}
+.card-enroll{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-enroll>span:nth-child(2), .card-medium>span:nth-child(2){
+    font-weight: 600;
+    font-size: 12px;
+}
+.card-medium{
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card-details-3{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    font-weight: 600;
+}
+
+.card-details-3>span:nth-child(2){
+margin-left: 5rem;
+}
+
+.card-details-4>span{
+    display: flex;
+    font-size:xx-small;
+    font-weight: 300;
+    color: rgb(160, 160, 160);
+    text-align: left;
+}
+
+.card-button{
+
+    display: flex;
+    flex-direction: row;
+    /* padding:1rem; */
+}
+.card-stars{
+    margin-left:90px;
+    color: rgb(207, 164, 72);
+}
+
+.card-butt{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 300;
+    height: 30px;
+    width: 7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,35 @@
+.class-container{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 90vw;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    margin: 3rem;
+    
+    
+    
+}
+.container>button{
+    margin-left: auto;
+    
+
+    
+}
+.name{
+    margin-right: 5rem;
+    
+
+    
+}
+.Join{
+    width: 5rem;
+    height: 2rem;
+    padding: 10px;
+}
