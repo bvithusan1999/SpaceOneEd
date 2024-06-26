@@ -43,7 +43,7 @@ const InstructorJoinClassCard = ({ classInfo }) => {
             }))
         };
         try {
-            const classResponse = await axios.post('http://192.168.92.225:8080/api/v1/videocon/classdata', data);
+            const classResponse = await axios.post('https://192.168.92.225:8080/api/v1/videocon/classdata', data);
             console.log('Class Data sent successfully:', classResponse.data);
             setResponse(classResponse.data);
 
