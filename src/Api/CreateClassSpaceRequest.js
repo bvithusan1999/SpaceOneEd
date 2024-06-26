@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://192.168.92.225:8080/",
+  baseURL: "https://192.168.92.225:8080/",
 });
 
 export const createClassSpace = (classSpaceData) =>
